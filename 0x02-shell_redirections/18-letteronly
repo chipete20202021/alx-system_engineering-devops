@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -1 *"[a-1]" /etc/ssh/sshd_config
+egrep ^ [[:alpha:]] /etc/ssh/sshd_config
